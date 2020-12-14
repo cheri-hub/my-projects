@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MontDev</title>
+    <style>
+        @import url('style.css');
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div id="homepage">
+            <header>
+                <div id="logo"><a href="">&lt /MONTDEV &gt</a></div>
+                <ul id="menu">
+                    <li id="home" class="activated"><a href="">Home</a></li>
+                    <li id="services"><a href="#servpage">Serviços</a></li>
+                    <li id="projects"><a href="#projpage">Projetos</a></li>
+                    <li id="about"><a href="#boutpage">Sobre</a></li>
+                    <li id="contact"><a href="#mail">Contato</a></li>
+                </ul>
+                <div id="language"><a href="">English</a></div>
+            </header>
+            <main>
+                <h1 id="name">Luis Enrique<br>Montagner</h1>
+                <h2 id="description">Estudante de Ciências da Computação, iniciante nesse mundo da programação e querendo dedicar minhas habilidades e conhecimentos para construir incríveis projetos. Atualmente entusiasmado com Web Development. Espero que possamos realizar um grande trabalho.</h2>
+                <a href="#servpage"><div class="arrow"></div></a>
+            </main>
+        </div>
+        <div id="servpage">
+            <h1 class="title" id="serv">SERVIÇOS</h1>
+            <div class="cardboard" id="cb1">
+                <div id="contentcb1">
+                    <p>Loading...</p>
+                </div>
+            </div>
+            <div class="cardboard" id="cb2">
+                <div id="contentcb2">
+                    <h2>WEB<br>DEVELOPMENT</h2>
+                    <span id="imgcb2"></span>
+                    <h3>Desenvolvimento de WebSites que combinem perfeitamente com você e/ou sua empresa!</h3>
+                </div>
+            </div>
+            <div class="cardboard" id="cb3">
+                <div id="contentcb3">
+                    <p>Loading...</p>
+                </div>
+            </div>
+        </div>
+        <div id="projpage">
+            <div class="close">
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="green"></div>
+            </div>
+            <h1 class="title" id="proj">PROJETOS</h1>
+            <p>Loading...</p>
+        </div>
+        <div id="boutpage">
+            <h1 class="title" id="bout">SOBRE</h1>
+            <div id="photo"></div>
+            <div id="me">
+                <p><span id="yl">Info</span> <span id="wh">= {</span></p>
+                <p><span id="bl">Nome:</span> Luis Enrique Montagner,<br><span id="bl">Idade:</span><span id="gr"> 23 anos,</span><br><span id="bl">Cidade:</span> Rio das Pedras/SP,<br><span id="bl">País:</span> Brasil</p>
+                <p><span id="wh">};</span></p>
+            </div>
+            <div id="graduation">
+                <p><span id="yl">Formação</span> <span id="wh">= [</span></p>
+                <p>Ciências da Computação,<br>2020 - 2024,<br>EEP - Escola de Engenharia de Piracicaba</p>
+                <p><span id="wh">];</span></p>
+            </div>
+            <div id="idioms">
+                <p><span id="yl">Idiomas </span><span id="wh">= {</span></p>
+                <p><span id="bl">Inglês: </span>Avançado,<br><span id="bl">Português: </span>Nativo</p>
+                <p><span id="wh">};</span></p>
+            </div>
+            <div id="qualifications">
+                <p><span id="yl">Qualificações </span><span id="wh">= {</span></p>
+                <p>
+                    <span id="bl">Angular: </span><progress value="1" max="3"></progress>,<br>
+                    <span id="bl">C: </span><progress value="2" max="3"></progress>,<br>
+                    <span id="bl">CSS: </span><progress value="2" max="3"></progress>,<br>
+                    <span id="bl">Express: </span><progress value="1" max="3"></progress>,<br>
+                    <span id="bl">HTML: </span><progress value="3" max="3"></progress>,<br>
+                    <span id="bl">Java: </span><progress value="1" max="3"></progress>,<br>
+                    <span id="bl">JavaScript: </span><progress value="2" max="3"></progress>,<br>
+                    <span id="bl">jQuery: </span><progress value="2" max="3"></progress>,<br>
+                    <span id="bl">MongoDB: </span><progress value="1" max="3"></progress>,<br>
+                    <span id="bl">NodeJS: </span><progress value="1" max="3"></progress>,<br>
+                    <span id="bl">UI/UX: </span><progress value="1" max="3"></progress>,<br>
+                </p>
+                <p><span id="wh">};</span></p>
+            </div>
+        </div>
+        <div id="tactpage">
+            <h1 class="title" id="tact">CONTATO</h1>
+            <div id="contactdiv">
+                <div id="mail">
+                    <h2>MENSAGEM</h2>
+                    <form action="https://formspree.io/xdowdblq" method="POST" id="sendmail">
+                        <div class="name-box">
+                            <input type="text" name="name-form" placeholder="NOME*" required>
+                        </div>
+                        <div class="mail-box">
+                            <input type="email" name="mail-form" placeholder="EMAIL*" required>
+                        </div>
+                        <div class="phone-box">
+                            <input type="tel" name="phone-form" placeholder="TELEFONE">
+                        </div>
+                        <div class="text-box">
+                            <textarea form="sendmail" name="msg-form" id="msg-form" maxlength="510" wrap="hard" placeholder="MENSAGEM..."></textarea>
+                        </div>
+                        <button type="reset">APAGAR</button>    
+                        <button type="submit">ENVIAR</button>
+                    </form>
+                </div>
+                <div class="close1">
+                    <div class="red1"></div>
+                    <div class="yellow1"></div>
+                    <div class="green1"></div>
+                </div>
+                <h2 id="c">TELEFONE <br>+55 19 xxx xxx xxx <br><br>EMAIL <br>LUIS.MOONTAGNER@GMAIL.COM</h2>
+            </div>
+            <p><a href="#homepage">Voltar ao<br>Topo</a></p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+        });
+        } // End if
+    });
+    });
+    </script>
+
+</body>
+</html>

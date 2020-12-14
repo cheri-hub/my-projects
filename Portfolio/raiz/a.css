@@ -1,0 +1,85 @@
+body{
+    height: 160%;
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 10vh; 
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: #F6F6F6;
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 1em;
+}
+
+#logo{
+    margin: auto 50px;
+    min-width: 110px;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+    min-width: 320px;    
+}
+
+li{
+    padding: 2px;
+    border-bottom: 2px solid rgba(87, 56, 56, 0);
+    transition: border-color .5s linear;
+}
+
+li:hover{
+    border-bottom-color: #F6F6F6;
+}
+
+.activated{
+    border-bottom-color: #F6F6F6;
+}
+
+a{
+    color: #F6F6F6;
+    text-decoration: none;
+}
+
+#language{
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 50px;
+    margin-left: 50px;
+    min-width: 110px;
+}
+
+
+/* Style the header */
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
