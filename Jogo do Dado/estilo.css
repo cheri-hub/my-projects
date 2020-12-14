@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nerko+One&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+
+main{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+}
+
+.jogadores{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    font-family: 'Nerko One', cursive;
+}
+
+#jogador1{
+    background-color: #FF6F61;
+
+}
+
+#jogador2{
+    background-color: #61F1FF;
+}
+
+.nomeJogador{
+    font-size: 2.5vw;
+}
+
+.pontos{
+    font-size: 8vw;
+}
+
+.vencedor{
+    font-size: 5vw;
+}
+
+#vencedor1{
+    color: #FF6F61;
+}
+
+#vencedor2{
+    color: #61F1FF;
+}
+
+.dado{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dado i{
+    font-size: 150px;
+    cursor: pointer;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    height: 5vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}

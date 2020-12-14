@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;900&family=Roboto:wght@100;300;400;900&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+    color: #ABABAB;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    height: 14vh;
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #C4C4C4;
+    border-radius: 5px;
+}
+
+header h1{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.players{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+}
+
+.players .name{
+    font-size: 20px;
+}
+
+.player img{
+    height: 200px;
+    width: 200px;
+}
+
+.players .values{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.txtValue{
+    font-size: 15px;
+}
+
+#valueP1{
+    font-size: 20px;
+    border: 2px solid #C4C4C4;
+    border-radius: 5px;
+    width: 100px;
+    background-color: #C4C4C4;
+    color:  #272727;
+    font-weight: 900;
+}
+
+#valueP2{
+    font-size: 20px;
+    border: 2px solid #C4C4C4;
+    border-radius: 5px;
+    width: 100px;
+    background-color: #C4C4C4;
+    color:  #272727;
+    font-weight: 900;
+}
+
+.dice{
+    font-weight: 900;
+    height: 150px;
+    width: 150px;
+    border: 2px solid #C4C4C4;
+    border-radius: 5px;
+    margin: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    box-shadow: 0 rgba(0, 0, 0, 0.0);
+    transition: box-shadow .5s;
+}
+
+.dice:hover {
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dice #txtRoll{
+    margin-bottom: 8px;
+}
+
+.dice img{
+    width: 80px;
+    height: 80px;
+    margin-top: 8px;
+}
+
+footer{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}

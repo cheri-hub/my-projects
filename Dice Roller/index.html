@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt_br ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Jogo de dados">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roller Dice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h1>DICE ROLLER !</h1>
+        </header>
+        <main>
+            <div class="players" id="p1">
+                <div class="name">Player 1</div>
+                <div class="player"><img src="./assets/player1.png" alt="Player 1"></div>
+                <div class="values">
+                    <div class="txtValue">Valor:</div>
+                    <div id="valueP1">0</div>
+                </div>
+            </div>
+            <div class="dice" onClick="playDice()">
+                <div id="txtRoll">JOGUE O DADO!</div>
+                <img src="./assets/dice.png" alt="Dado">
+            </div>
+            <div class="players" id="p2">
+                <div class="name">Player 2</div>
+                <div class="player"><img src="./assets/player2.png" alt="Player 2"></div>
+                <div class="values">
+                    <div class="txtValue">Valor:</div>
+                    <div id="valueP2">0</div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Luis Enrique Montagner</p>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
